@@ -8,7 +8,8 @@ Developed @ One Month in NYC
 */
 
 body {
-	background: url("https://assets.entrepreneur.com/content/3x2/2000/1649279368-Ent-2022Python.jpeg");
+	background: url(../images/cookie-monster.jpg);
+	/*background: url('../images/cookie-monster.jpg');*/
 	/* the follow is the code to have the image display as a full page */
 	background-position: center;
 	background-attachment: fixed;
@@ -20,7 +21,7 @@ body {
 
 #container {
 	padding: 15px;
-    background: rgba(140, 35, 24, 0.8);
+	background: black;
 	width: 424px;
 	color: white;
 }
@@ -29,7 +30,7 @@ h1 {
 }
 h2 {
 	font-size: 40px;
-	background: #88A65E;
+	background: #75c1f6;
 	color: black;
 	padding: 5px;
 	border-radius: 5px;
@@ -37,5 +38,4 @@ h2 {
 a {
 	color: #75c1f6;
 	text-decoration: none;
-
 }
